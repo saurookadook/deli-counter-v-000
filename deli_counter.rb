@@ -15,7 +15,6 @@ def line(array)
 end
 
 def take_a_number(array, new_customer)
-  changing_line = []
 end
 
 def now_serving
