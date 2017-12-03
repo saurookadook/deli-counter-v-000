@@ -14,7 +14,6 @@ end
 
 def take_a_number(array, new_customer)
   array << new_customer
-  puts "Welcom, #{new_customer}. You are number #{array.last} in line."
 end
 
 def now_serving
