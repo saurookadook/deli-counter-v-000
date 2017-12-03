@@ -13,7 +13,7 @@ def line(array)
 end
 
 def take_a_number(array, new_customer)
-  growing_line = []
+  array << new_customer
 end
 
 def now_serving
