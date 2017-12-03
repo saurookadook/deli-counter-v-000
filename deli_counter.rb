@@ -17,5 +17,11 @@ def take_a_number(array, new_customer)
   puts "Welcome, #{new_customer}. You are number #{array.count} in line."
 end
 
-def now_serving
+def now_serving(array)
+  if array.empty?
+    puts "There is nobody waiting to be served!"
+  elsif !(array.empty?)
+    puts "Currently serving #{array.at(0)}."
+    array.shift
+  end
 end
