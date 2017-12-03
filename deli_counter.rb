@@ -1,12 +1,10 @@
 require 'pry'
 
-current_line = []
-
 def line(array)
   if array.empty?
     puts "The line is currently empty."
   elsif !(array.empty?)
-    # current_line = []
+    current_line = []
     array.each_with_index do |customer, index|
       current_line << "#{index+1}. #{customer}"
     end
