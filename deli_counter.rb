@@ -5,7 +5,7 @@ def line(array)
     puts "The line is currently empty."
   elsif !(array.empty?)
     current_line = []
-    array.each_with_index do |customer|
+    array.each_with_index do |customer, index|
       current_line << "#{index+1} #{customer}"
     end
     puts "The line is currently: #{current_line.join(" ")}"
