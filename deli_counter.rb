@@ -4,8 +4,11 @@ def line(array)
   if array.empty?
     puts "The line is currently empty."
   elsif !(array.empty?)
-    
-    puts "The line is currently: "
+    current_line = []
+    array.each_with_index do |customer|
+      current_line << "#{index+1} #{customer}"
+    end
+    puts "The line is currently: #{current_line.join(" ")}"
   end
 end
 
