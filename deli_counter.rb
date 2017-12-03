@@ -12,5 +12,6 @@ def line(array)
   end
 end
 
-def take_a_number(katz_deli)
+def take_a_number(katz_deli, new_customer)
+  
 end
